@@ -53,11 +53,28 @@
                              Height="50"
                              Foreground="White"
                              FontSize="14"
-                             Style="{StaticResource MenuButton}"/>
+                             Style="{StaticResource MenuButton}"
+                             Command="{Binding ConfigurationViewCommand}"/>
             </StackPanel>
 
             <Image Grid.Column="1"
                    Source="Images/DEALogo.png"/>
+            <Ellipse Grid.Column="1" 
+                     Fill="Red" 
+                     Height="15" 
+                     Width="15" 
+                     HorizontalAlignment="Right" 
+                     VerticalAlignment="Top"
+                     Margin="8"
+                     MouseLeftButtonDown="CloseApp"/>
+            <Ellipse Grid.Column="1" 
+                     Fill="Yellow" 
+                     Height="15" 
+                     Width="15" 
+                     HorizontalAlignment="Right" 
+                     VerticalAlignment="Top"
+                     Margin="0,8,30,0"
+                     MouseLeftButtonDown="MinimizeApp"/>
 
             <ContentControl Grid.Column="1"
                             Grid.Row="1"

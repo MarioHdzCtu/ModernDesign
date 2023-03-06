@@ -24,5 +24,10 @@ namespace ModernDesign.MVVM.View
         {
             InitializeComponent();
         }
+
+        public void PrintSomething()
+        {
+            Console.WriteLine("Something");
+        }
     }
 }

@@ -18,9 +18,9 @@ namespace ModernDesign.MVVM.View
     /// <summary>
     /// Lógica de interacción para Configuration.xaml
     /// </summary>
-    public partial class Configuration : UserControl
+    public partial class ConfigurationView : UserControl
     {
-        public Configuration()
+        public ConfigurationView()
         {
             InitializeComponent();
         }
