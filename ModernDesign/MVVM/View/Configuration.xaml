@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="ModernDesign.MVVM.View.Configuration"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ModernDesign.MVVM.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800"
+             TextElement.FontFamily="/Fonts/#Montserrat">
+    <StackPanel>
+        <StackPanel.Resources>
+            <Style TargetType="{x:Type Border}">
+                <Setter Property="Margin" Value="10,30"/>
+            </Style>
+        </StackPanel.Resources>
+        <StackPanel Orientation="Horizontal">
+            <Border VerticalAlignment="Center">
+            <TextBlock Text="Path reporte Prod"
+                       FontSize="22"
+                       Foreground="White"
+                       TextAlignment="Center"/>
+            </Border>
+            <TextBox Width="500"
+                     Height="60"
+                     VerticalContentAlignment="Center"
+                     HorizontalAlignment="Left"
+                     Margin="15,0,0,0"
+                     Style="{StaticResource SearchBox}"
+                     />
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Border VerticalAlignment="Center">
+                <TextBlock Text="Path reporte Prod 2"
+                       FontSize="22"
+                       Foreground="White"
+                       TextAlignment="Center"/>
+            </Border>
+            <TextBox Width="500"
+                     Height="60"
+                     VerticalContentAlignment="Center"
+                     HorizontalAlignment="Left"
+                     Margin="15,0,0,0"
+                     Style="{StaticResource SearchBox}"
+                     />
+        </StackPanel>
+    </StackPanel>
+</UserControl>

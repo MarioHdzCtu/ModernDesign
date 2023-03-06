@@ -6,8 +6,91 @@
              xmlns:local="clr-namespace:ModernDesign.MVVM.View"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800"
-             Background="#1B1B1B">
-    <Grid>
-            
-    </Grid>
+             TextElement.FontFamily="/Fonts/#Montserrat">
+    <StackPanel
+        VerticalAlignment="Center"
+        HorizontalAlignment="Center">
+
+        <StackPanel Orientation="Horizontal">
+            <Border Width="200"
+                    Height="200"
+                    CornerRadius="20">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                        <GradientStop Color="#5bc3ff" Offset="0.0"/>
+                        <GradientStop Color="#3aa0ff" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+
+
+                <Grid
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+                    <StackPanel>
+                        <TextBlock Text="Split&#x0a;PDF"
+                                   Foreground="White"
+                                   FontSize="28"
+                                   TextAlignment="Center"/>
+
+                    </StackPanel>
+                </Grid>
+
+            </Border>
+            <Border Width="200"
+                    Height="200"
+                    Margin="15,0,0,0"
+                    CornerRadius="20">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                        <GradientStop Color="#5bc3ff" Offset="0.0"/>
+                        <GradientStop Color="#3aa0ff" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+
+
+                <Grid
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+                    <StackPanel>
+                        <TextBlock Text="Subir&#x0a;PPS"
+                                   Foreground="White"
+                                   FontSize="28"
+                                   TextAlignment="Center"/>
+
+                    </StackPanel>
+                </Grid>
+
+            </Border>
+            <Border Width="200"
+                    Height="200"
+                    Margin="15,0,0,0"
+                    CornerRadius="20">
+                <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                        <GradientStop Color="#5bc3ff" Offset="0.0"/>
+                        <GradientStop Color="#3aa0ff" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+
+
+                <Grid
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+                    <StackPanel>
+                        <TextBlock Text="Cerrar OTs&#x0a;Maximo"
+                                   Foreground="White"
+                                   FontSize="28"
+                                   TextAlignment="Center"/>
+
+                    </StackPanel>
+                </Grid>
+
+            </Border>
+
+
+        </StackPanel>
+
+
+    </StackPanel>
 </UserControl>
+

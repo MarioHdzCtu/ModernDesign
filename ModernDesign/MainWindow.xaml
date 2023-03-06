@@ -28,40 +28,36 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
             
-            <TextBlock Text="Elysian"
+            <TextBlock Text="Utilidades&#x0a;Pintura"
                    VerticalAlignment="Center"
-                   HorizontalAlignment="Left"
+                   HorizontalAlignment="Center"
                    Foreground="White"
                    FontSize="22"
-                   Margin="20,0,0,0"/>
+                   TextAlignment="Center"/>
 
             <StackPanel Grid.Row="1">
-                <RadioButton Content="Home"
+                <RadioButton Content="Admin"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButton}"
                              IsChecked="True"
                              Command="{Binding HomeViewCommand}"/>
-                <RadioButton Content="Discovery"
+                <RadioButton Content="Planner"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButton}"
                              Command="{Binding DiscoveryViewCommand}"/>
-                <RadioButton Content="Featured"
+                <RadioButton Content="Configuración"
                              Height="50"
                              Foreground="White"
                              FontSize="14"
                              Style="{StaticResource MenuButton}"/>
             </StackPanel>
 
-            <TextBox 
-                     VerticalAlignment="Center"
-                     HorizontalAlignment="Left"
-                     Margin="5"
-                     Grid.Column="1"
-                     Style="{StaticResource SearchBox}"/>
+            <Image Grid.Column="1"
+                   Source="Images/DEALogo.png"/>
 
             <ContentControl Grid.Column="1"
                             Grid.Row="1"
