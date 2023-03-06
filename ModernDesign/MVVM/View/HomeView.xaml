@@ -34,7 +34,7 @@
                         <TextBlock Text="World Leader&#x0a;in global finance"
                                    Foreground="White"
                                    FontSize="28"
-                                   Margin="20,10,10,0"/>
+                                   Margin="20,10,11,0"/>
                         <TextBlock Text="Get Started today!"
                                    Foreground="White"
                                    FontSize="18"
